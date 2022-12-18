@@ -1,3 +1,8 @@
+![Node Version](https://img.shields.io/badge/node_version-_16.18.0-pink.svg)
+![React Version](https://img.shields.io/badge/react_version-_18.2.0-pink.svg)
+![build](https://github.com/sevvalsaygat/stack-overflow-app/actions/workflows/build.yml/badge.svg?branch=main)
+![linter](https://github.com/sevvalsaygat/stack-overflow-app/actions/workflows/linter.yml/badge.svg?branch=main)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
