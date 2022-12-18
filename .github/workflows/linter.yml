@@ -6,7 +6,7 @@ name: linter
 on: [push]
 
 jobs:
-  build:
+  linter:
     runs-on: ubuntu-latest
 
     strategy:
