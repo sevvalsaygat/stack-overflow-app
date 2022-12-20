@@ -1,3 +1,4 @@
-import Icons from './Icons';
+import Footer from './Footer';
+import Header from './Header';
 
-export { Icons };
+export { Footer, Header };
