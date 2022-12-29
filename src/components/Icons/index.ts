@@ -5,6 +5,7 @@ import SvgCup from './Cup';
 import SvgList from './List';
 import SvgLogo from './Logo';
 import SvgProfil from './Profil';
+import SvgSearch from './Search';
 
 /* eslint-disable */
 export default {
@@ -15,5 +16,6 @@ export default {
   SvgList,
   SvgLogo,
   SvgProfil,
+  SvgSearch,
   /* eslint-enable */
 };
