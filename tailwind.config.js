@@ -17,6 +17,9 @@ module.exports = {
           text: '#0077CC',
           light: '#CFEAFE',
           footer:' #232629',
+          border: '#7aa7c7',
+          button: '#e1ecf4',
+          active: '#a3cae5',
         },
         red: {
           dark: '#942121',

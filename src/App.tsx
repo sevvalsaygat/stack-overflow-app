@@ -1,13 +1,17 @@
 import { Routes, Route } from 'react-router-dom';
 import React from 'react';
-import { Home, Development } from './pages';
+import { Home, Development, Users } from './pages';
+import { AuthProvider } from './hooks/useAuth';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/development" element={<Development />} />
-    </Routes>
+    <AuthProvider>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/development" element={<Development />} />
+        <Route path="/users/sign_in" element={<Users.SignIn />} />
+      </Routes>
+    </AuthProvider>
   );
 }
 
