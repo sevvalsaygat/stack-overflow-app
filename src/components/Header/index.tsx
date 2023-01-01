@@ -13,13 +13,15 @@ const Header = () => {
             <h3 className="text-sm font-light px-4 py-2 hover:bg-gray-200 rounded-full cursor-pointer">
               Products
             </h3>
-            <Icons.SvgSearch className="h-5 w-5 fixed mt-2 ml-28" />
-            <input
-              className="border border-gray-400 pl-10 rounded-md p-1 w-full focus:outline-blue-400
-              focus:ring-4 focus:ring-blue-200 focus:border-transparent"
-              type="text"
-              placeholder="Search..."
-            />
+            <div className="flex flex-row w-full">
+              <Icons.SvgSearch className="h-5 w-5 fixed mt-2 ml-3" />
+              <input
+                className="border border-gray-400 pl-10 rounded-md p-1 w-full focus:outline-blue-400
+                focus:ring-4 focus:ring-blue-200 focus:border-transparent"
+                type="text"
+                placeholder="Search..."
+              />
+            </div>
           </div>
           <div className="w-3/12 flex flex-row justify-between">
             <div className="p-3 hover:bg-gray-200 cursor-pointer">

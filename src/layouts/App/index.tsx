@@ -7,13 +7,6 @@ type AppType = {
 
 const App = ({ children }: AppType) => {
   return (
-    // <div>
-    //   <div className="w-full">
-    //     <Header />
-    //   </div>
-    //   {children}
-    //   <Footer />
-    // </div>
     <div className="w-full">
       <Header />
       <div className="w-8/12 bg-red-500 mx-auto">{children}</div>
