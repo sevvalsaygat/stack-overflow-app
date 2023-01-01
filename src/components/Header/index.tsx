@@ -1,7 +1,11 @@
 import React from 'react';
 import { Icons } from './../index';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
+  const I18N_SCOPE = 'components.header';
+  const { t } = useTranslation();
+
   return (
     <div className="w-full bg-gray-100">
       <div className="w-8/12 bg-red-500 mx-auto">
@@ -19,7 +23,7 @@ const Header = () => {
                 className="border border-gray-400 pl-10 rounded-md p-1 w-full focus:outline-blue-400
                 focus:ring-4 focus:ring-blue-200 focus:border-transparent"
                 type="text"
-                placeholder="Search..."
+                placeholder={`${t(`${I18N_SCOPE}.search`)}...`}
               />
             </div>
           </div>
