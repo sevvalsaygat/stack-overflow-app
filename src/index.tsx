@@ -8,15 +8,17 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import CONSTANTS from './constants';
 
+/* eslint-disable */
 i18n.use(initReactI18next).init({
   resources: {
-    en: { translation: require('./locales/en.json') },
-    tr: { translation: require('./locales/tr.json') }
+    en: { translation: require('./assets/locale/en.json') },
+    tr: { translation: require('./assets/locale/tr.json') },
   },
   lng: CONSTANTS.APPLICATION.DEFAULT_LOCALE,
   fallbackLng: CONSTANTS.APPLICATION.FALLBACK_LOCALE,
-  interpolation: { escapeValue: false }
+  interpolation: { escapeValue: false },
 });
+/* eslint-enable */
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
