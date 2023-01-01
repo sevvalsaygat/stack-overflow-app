@@ -10,12 +10,13 @@ module.exports = {
         },
         gray: {
           dark: '#535A60',
-          text: '#BBC0C4',
-          light: '#E4E6E8', 
+          text: '#9199a1',
+          light: '#babfc4', 
         },
         blue: {
           text: '#0077CC',
           light: '#CFEAFE',
+          footer:' #232629',
         },
         red: {
           dark: '#942121',
