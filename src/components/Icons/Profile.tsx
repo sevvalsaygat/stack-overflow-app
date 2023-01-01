@@ -1,10 +1,10 @@
 import React from 'react';
 
-type SvgProfilType = {
+type SvgProfileType = {
   className?: string;
 };
 
-const SvgProfil = ({ className }: SvgProfilType) => {
+const SvgProfile = ({ className }: SvgProfileType) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -25,4 +25,4 @@ const SvgProfil = ({ className }: SvgProfilType) => {
   );
 };
 
-export default SvgProfil;
+export default SvgProfile;

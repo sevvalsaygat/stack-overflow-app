@@ -4,7 +4,7 @@ import SvgSnow from './Snow';
 import SvgCup from './Cup';
 import SvgList from './List';
 import SvgLogo from './Logo';
-import SvgProfil from './Profil';
+import SvgProfile from './Profile';
 import SvgSearch from './Search';
 import SvgUser from './User';
 
@@ -16,8 +16,8 @@ export default {
   SvgCup,
   SvgList,
   SvgLogo,
-  SvgProfil,
+  SvgProfile,
   SvgSearch,
   SvgUser,
-  /* eslint-enable */
 };
+/* eslint-enable */

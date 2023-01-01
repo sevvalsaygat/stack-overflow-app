@@ -12,7 +12,6 @@ module.exports = {
           dark: '#535A60',
           text: '#BBC0C4',
           light: '#E4E6E8',
-          header: '#f8f9f9'
         },
         blue: {
           text: '#0077CC',
