@@ -18,7 +18,6 @@
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "project": "./tsconfig.json",
     "ecmaFeatures": {
       "jsx": true
     },
@@ -55,7 +54,7 @@
         "varsIgnorePattern": "^_"
       }
     ],
-    "max-len": ["error", { "code": 120 }],
+    "max-len": "off",
     "space-before-function-paren": [
       "error",
       {
@@ -64,11 +63,13 @@
       }
     ],
     "object-curly-spacing": "off"
+    
   },
   "ignorePatterns": [
     "node_modules",
     "dist",
     "postcss.config.js",
-    "tailwind.config.js"
+    "tailwind.config.js",
+    "build"
   ]
 }
