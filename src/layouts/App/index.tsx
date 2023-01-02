@@ -8,9 +8,9 @@ type AppType = {
 
 const App = ({ children, hideFooter }: AppType) => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-gray-200">
       <Header />
-      <div className="w-8/12 bg-red-500 mx-auto">{children}</div>
+      <div className="w-8/12 mx-auto">{children}</div>
 
       {hideFooter ? null : <Footer />}
     </div>

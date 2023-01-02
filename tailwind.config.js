@@ -20,6 +20,9 @@ module.exports = {
           border: '#7aa7c7',
           button: '#e1ecf4',
           active: '#a3cae5',
+          dark: '#2e3338',
+          facebook:'#385499',
+          back:'#0a95ff'
         },
         red: {
           dark: '#942121',
