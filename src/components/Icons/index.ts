@@ -7,6 +7,7 @@ import SvgLogo from './Logo';
 import SvgProfile from './Profile';
 import SvgSearch from './Search';
 import SvgUser from './User';
+import SvgLogoSmall from './LogoSmall';
 
 /* eslint-disable */
 export default {
@@ -19,5 +20,6 @@ export default {
   SvgProfile,
   SvgSearch,
   SvgUser,
+  SvgLogoSmall,
 };
 /* eslint-enable */

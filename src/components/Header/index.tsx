@@ -7,7 +7,7 @@ const Header = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="w-full bg-gray-100">
+    <div className="w-full bg-gray-100 shadow-md border-t-2 border-t-orange-400">
       <div className="w-8/12 bg-red-500 mx-auto">
         <div className="flex flex-row bg-gray-100 align-center items-center">
           <div className="w-2/12 p-2 hover:bg-gray-200 cursor-pointer flex justify-center">
